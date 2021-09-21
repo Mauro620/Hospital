@@ -21,5 +21,10 @@ from MyDatabase.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Inicio/', Inicio)
+    path('Inicio/', Inicio),
+    path('pacientes/', pacientes),
+    path('empleado/', empleados),
+    path('salas/', salas),
+    path('principal/', principal),
+
 ]

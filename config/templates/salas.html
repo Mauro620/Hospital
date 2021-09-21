@@ -3,20 +3,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pacientes</title>
+    <title>Salas</title>
     {% include 'estilos.html' %}
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 {% include 'navbar.html' %}
 <div class="content-wrapper">
-    <section class="content">
+<section class="content">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Pacientes</h3>
+                            <h3 class="card-title">Salas</h3>
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -28,7 +28,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <p>Tabla de pacientes</p>
+                            <h3 style="font-size: 15px">Cuadros con cada tabla del hospital</h3>
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">
@@ -42,16 +42,20 @@
         </div>
     </section>
 </div>
-<!-- <header>
-    <h1>Pacientes</h1>
+
+
+
+<!--
+<header>
+    <h1>Salas</h1>
 </header>
 <main>
     <ul>
-        <li>Tabla de pacientes con filtro</li>
-        <li>Boton de visitantes en cada item</li>
+        <li>Numero de sala</li>
+        <li>Funcion de la sala</li>
+        <li>pacientes dentro de la sala</li>
     </ul>
 </main> -->
 {% include 'javascript.html' %}
-
 </body>
 </html>

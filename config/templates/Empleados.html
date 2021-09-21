@@ -1,12 +1,13 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Empleados</title>
+    {% include 'estilos.html' %}
 </head>
-<body>
-<h1 style="font-family: 'Arial Black'"><b>Esta es la pagina de Empleados</b></h1>
-<p>ver los datos de los empleados
-Tabla con filtros de profesión</p>
+<body class="hold-transition sidebar-mini layout-fixed">
+{% include 'navbar.html' %}
+{% include 'javascript.html' %}
 </body>
 </html>
