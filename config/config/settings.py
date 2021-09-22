@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'core.apps.CoreConfig',
     #apps
     'MyDatabase',
+    'core.inicio',
+    'core.employed',
+    'core.pacientes',
+    'core.rooms',
 ]
 
 MIDDLEWARE = [
